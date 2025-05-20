@@ -26,6 +26,10 @@ class BookService:
             file.data = [entry for entry in file.data if entry.get("title") != title]
 
     def get_sorted_books(self, key: str, reverse: bool = False) -> list[Book]:
+        allowed_keys = {"title", "author", "pages", "year"}
+        if key not in allowed_keys:
+            raise ValueError(f"Invalid sort key: '{key}'. Allowed keys: {', '.join(allowed_keys)}")
+
         with JSONFileManager(self.filepath) as file:
             sorted_data = sorted(
                 file.data,

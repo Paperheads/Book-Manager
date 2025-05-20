@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Harry Potter",
+        "author": "You know who",
+        "pages": 340,
+        "year": 300
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "pages": 310,
+        "year": 1937
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "pages": 328,
+        "year": 1949
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages": 281,
+        "year": 1960
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "pages": 180,
+        "year": 1925
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "pages": 311,
+        "year": 1932
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "pages": 635,
+        "year": 1851
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "pages": 277,
+        "year": 1951
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "pages": 671,
+        "year": 1866
+    }
+]
